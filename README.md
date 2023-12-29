@@ -2,18 +2,11 @@
 
 
 # IMPLEMENTATION OF SPEECH RECOGNITION PAPERS
-This repository contains the paper implementation in the filed of speech analyzing and recognition.
-
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-Sometimes bash scripting is hard to recall for ordinary usage. Creating this content is to review scripting quickly and use the syntax template more speedily.
+This repository contains the paper implementation in the filed of speech analyzing and recognition.
 
 ## :bookmark_tabs: Table of Contents
-- [01-Build-a-bash-script](01-Build-a-bash-script)
-- [02-Variables-and-shell-expansions](02-Variables-and-shell-expansions)
-- [03-Bash-command-processing](03-Bash-command-processing)
-- [04-User-input](04-User-input)
-- [05-Logic](05-Logic)
-- [06-Processing-options-and-reading-files](06-Processing-options-and-reading-files)
+- [00-Build-a-bash-script](01-Build-a-bash-script)
