@@ -1,5 +1,4 @@
-![speech-paper-implement](https://socialify.git.ci/hamedzeinalzadeh/bash-tutorials/image?font=KoHo&forks=1&logo=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F82%2FGnu-bash-logo.svg%2F1200px-Gnu-bash-logo.svg.png&name=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Light)
-
+![speech-paper-implement](https://socialify.git.ci/hamedzeinalzadeh/speech-paper-implement/image?font=KoHo&forks=1&language=1&logo=https%3A%2F%2Faeiljuispo.cloudimg.io%2Fv7%2Fhttps%3A%2F%2Fcdn-uploads.huggingface.co%2Fproduction%2Fuploads%2F602abb8d50ec6f86bf5fabb8%2FQtspUz-E1PhHUwPer9-tO.png%3Fw%3D200%26h%3D200%26f%3Dface&name=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Light)
 
 # IMPLEMENTATION OF SPEECH RECOGNITION PAPERS
 
