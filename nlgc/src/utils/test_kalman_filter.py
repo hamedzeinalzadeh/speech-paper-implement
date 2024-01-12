@@ -1,10 +1,10 @@
 import numpy as np
 from scipy import linalg
 from matplotlib import pyplot as plt
-from nlgc.opt.e_step import sskf
-from nlgc.opt.m_step import solve_for_a, solve_for_q, calculate_ss, compute_ll
-from nlgc.opt.opt import NeuraLVAR, NeuraLVARCV
-from nlgc._nlgc import _gc_extraction
+from src.opt.e_step import sskf
+from src.opt.m_step import solve_for_a, solve_for_q, calculate_ss, compute_ll
+from src.opt.opt import NeuraLVAR, NeuraLVARCV
+from src._nlgc import _gc_extraction
 
 
 class ProcessGenerator:
