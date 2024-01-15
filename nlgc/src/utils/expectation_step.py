@@ -248,9 +248,6 @@ class SteadyStateKalmanFilter:
         return tuple(typecasted_arrays)
 
 
-# from your_kalman_filter_module import SteadyStateKalmanFilter
-# Assuming SteadyStateKalmanFilter class is defined in your_kalman_filter_module.py
-
 if __name__ == "__main__":
     t = 1000  # Number of time steps
 
