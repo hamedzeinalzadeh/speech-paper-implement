@@ -146,10 +146,8 @@ class SteadyStateKalmanFilter:
             else:
                 filtered_state_previous[time_step] = self.a @ filtered_state_current[time_step - 1]
 
-            observation_innovation = y[time_step] - \
-                self.f @ filtered_state_previous[time_step]
-            filtered_state_current[time_step] = filtered_state_previous[time_step] + \
-                kalman_gain @ observation_innovation
+            observation_innovation = y[time_step] - self.f @ filtered_state_previous[time_step]
+            filtered_state_current[time_step] = filtered_state_previous[time_step] + kalman_gain @ observation_innovation
 
         # Calculate the model fit metric based on residuals
         residuals = y - filtered_state_current @ self.f.T
@@ -210,10 +208,8 @@ class SteadyStateKalmanFilter:
                 state_prior[time_step] = a.dot(state_posterior[time_step - 1])
 
             # Update the state with the observation
-            observation_innovation = y[time_step] - \
-                f.dot(state_prior[time_step])
-            state_posterior[time_step] = state_prior[time_step] + \
-                kalman_gain.dot(observation_innovation)
+            observation_innovation = y[time_step] - f.dot(state_prior[time_step])
+            state_posterior[time_step] = state_prior[time_step] + kalman_gain.dot(observation_innovation)
 
             # Store the prediction
             predictions[time_step] = f.dot(state_prior[time_step])
