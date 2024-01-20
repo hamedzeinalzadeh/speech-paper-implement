@@ -5,7 +5,8 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-This repository contains the paper implementation in the filed of speech analyzing and recognition.
+
+This repository presents my attempts to code research papers in the field of language and speech processing and recognition, based on my understanding and perspective. These implementations might differ in efficiency and structure from the original source code. For authoritative references, please consult the README files in each project, where the main sources are cited.
 
 ## :bookmark_tabs: Table of Contents
-- [00-Build-a-bash-script](01-Build-a-bash-script)
+- [00-Network Localized Granger Causality](00-nlgc)
